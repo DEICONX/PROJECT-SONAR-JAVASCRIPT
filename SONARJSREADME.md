@@ -2,19 +2,19 @@
 
 > Give a name for instance and select image ubuntu
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151155.png)
+![](Screenshot%202025-10-21%20151155.png)
 
 ------
 
 > Here while selecting instance type sonarqube needs minimum of 2 cpus and 4gb memory 
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151221.png)
+![](Screenshot%202025-10-21%20151221.png)
 
 ----
 
 > Add inbound rule i.e default port number of sonarqube is 9000
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151251.png)
+![](Screenshot%202025-10-21%20151251.png)
 
 -----
 
@@ -24,7 +24,7 @@
 >
 > `sudo apt -y update && sudo apt install openjdk-17-jre-headless -y`
 
-![](C:\Users\jagan\Downloads\JAVASONAR\Screenshot 2025-10-21 152552.png)
+![](Screenshot%202025-10-21%20152552.png)
 
 ------
 
@@ -52,13 +52,15 @@
 > - The trailing **`-`** tells bash to read from standard input (the script from curl).
 > - It **runs the setup script immediately after downloading it**, instead of saving it to a file.
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 181429.png)
+![](Screenshot%202025-10-21%20181429.png)
 
 ----
 
-> Clone the code from git hub using `git clone <URL>`
+> Clone the code from git hub using `git clone <URL>`  
 
-​     now install angular/cli using `sudo npm install -g @angular/cli`![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 181921.png)
+​     now install angular/cli using `sudo npm install -g @angular/cli`
+
+![](Screenshot%202025-10-21%20181921.png)
 
 -------
 
@@ -66,36 +68,36 @@
 >
 > using `sudo  nano sonar-project.properties` 
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 092942.png)
+![](Screenshot%202025-10-22%20092942.png)
 
 -------
 
 > Now write the below file by giving your public ip and token key
->
-> # Project identification
-> sonar.projectKey=JavaScriptTest
-> sonar.projectName=JavaScriptTest
-> sonar.projectVersion=1.0
->
-> # Source files location
-> sonar.sources=.
->
-> # Optional: Exclude files/folders if needed
-> # sonar.exclusions=node_modules/**,dist/**,coverage/**
->
-> # Language
-> sonar.language=js
->
-> # Encoding
-> sonar.sourceEncoding=UTF-8
->
-> # Server URL
-> sonar.host.url=http://<YOUR_SONARQUBE_SERVER_IP>:9000
->
-> # Authentication token
-> sonar.login=<YOUR_GENERATED_TOKEN>
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 100500.png)
+    # Project identification
+    sonar.projectKey=JavaScriptTest
+    sonar.projectName=JavaScriptTest
+    sonar.projectVersion=1.0
+
+    # Source files location
+    sonar.sources=.
+
+    # Optional: Exclude files/folders if needed
+    # sonar.exclusions=node_modules/**,dist/**,coverage/**
+
+    # Language
+    sonar.language=js
+
+    # Encoding
+    sonar.sourceEncoding=UTF-8
+
+    # Server URL
+    sonar.host.url=http://<YOUR_SONARQUBE_SERVER_IP>:9000
+
+    # Authentication token
+    sonar.login=<YOUR_GENERATED_TOKEN>
+
+![](Screenshot%202025-10-22%20100500.png)
 
 ------
 
@@ -107,7 +109,7 @@
 >
 > `sudo unzip <name>` 
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 093625.png)
+![](Screenshot%202025-10-22%20093625.png)
 
 -------
 
@@ -117,16 +119,16 @@
 >
 > `sudo nano sonar-scanner.properties`
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 094104.png)
+![](Screenshot%202025-10-22%20094104.png)
 
 ------
 
 > In that add your url and token key 
 
-> sonar.host.url=http://44.222.229.104:9000
-> sonar.login=squ_f07f413acf99fff40f16d40e801a02bfa605dc9b
+    sonar.host.url=http://44.222.229.104:9000
+    sonar.login=squ_f07f413acf99fff40f16d40e801a02bfa605dc9b
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 101527.png)
+![](Screenshot%202025-10-22%20101527.png)
 
 ----
 
@@ -134,7 +136,7 @@
 >
 > `sonar-scanner`
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 094325.png)
+![](Screenshot%202025-10-22%20094325.png)
 
 ------
 
@@ -142,22 +144,22 @@
 >
 > Note: For sonarqube configuration refer to project-java-sonar git hub url is https://github.com/DEICONX/PROJECT-SONAR-JAVA.git
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 094807.png)
+![](Screenshot%202025-10-22%20094807.png)
 
 ------
 
 > Now in sonarqube dashboard our test analysis is ready in the below image you can see our code repo name Angularcalculator open the file
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 094831.png)
+![](Screenshot%202025-10-22%20094831.png)
 
 ------
 
 > Test is passed and successful and you can view detailed bugs in issues dashboard
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 095015.png)
+![](Screenshot%202025-10-22%20095015.png)
 
 -----
 
 > Detailed issues are shown 
 
-![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-22 095026.png)
+![](Screenshot%202025-10-22%20095026.png)
