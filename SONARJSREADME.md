@@ -2,19 +2,19 @@
 
 > Give a name for instance and select image ubuntu
 
-![](C:\Users\jagan\Downloads\JAVASONAR\Screenshot 2025-10-21 151155.png)
+![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151155.png)
 
 ------
 
 > Here while selecting instance type sonarqube needs minimum of 2 cpus and 4gb memory 
 
-![](C:\Users\jagan\Downloads\JAVASONAR\Screenshot 2025-10-21 151221.png)
+![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151221.png)
 
 ----
 
 > Add inbound rule i.e default port number of sonarqube is 9000
 
-![](C:\Users\jagan\Downloads\JAVASONAR\Screenshot 2025-10-21 151251.png)
+![](C:\Users\jagan\Downloads\SONARJS\Screenshot 2025-10-21 151251.png)
 
 -----
 
